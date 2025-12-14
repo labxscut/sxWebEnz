@@ -157,4 +157,4 @@ Duan, Hongyu, et al. "EnzHier: Accurate Enzyme Function Prediction Through Multi
 
 ## License
 
-This project is free for academic use.
+This project is free for academic and commercial use.
