@@ -162,6 +162,3 @@ If you use EnzHire in your research, please cite:
 This project is free for academic and commercial use.
 
 ```
-
-4.  **清晰的输出**：优化了 `print_result` 函数，让结果在终端里看起来更整洁，方便用户复制。
-```
