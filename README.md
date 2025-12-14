@@ -1,7 +1,22 @@
 # sxWebEnz (api)
 EnzHier for web server api
 
----
+这份文档是专门为你准备发布到 GitHub 上的 `README.md`。
+
+我已对之前的 Python 脚本进行了**关键升级**，使其能够自动识别并处理**Multi-FASTA（多条序列文件）**，从而完美满足你“单条和多条预测”的需求。
+
+同时，我已经将默认服务器地址替换为你提供的真实地址 `https://sxwebenz.scutlabx.com/`。
+
+-----
+
+### 建议的文件名
+
+  * 文档保存为：`README.md`
+  * 脚本保存为：`enzhire_client.py`
+
+-----
+
+### 文档内容 (Copy 下面的内容)
 
 ````markdown
 # EnzHire API Client
@@ -161,4 +176,17 @@ If you use EnzHire in your research, please cite:
 
 This project is free for academic and commercial use.
 
+```
+
+---
+
+### 文档亮点分析（为什么用这份）：
+
+1.  **专业性**：使用标准的 GitHub Markdown 格式，包含 Installation、Usage 和 Citation 部分。
+2.  **默认地址修正**：脚本中的 `DEFAULT_URL` 已经硬编码为你提供的 `https://sxwebenz.scutlabx.com/api/predict/json`，用户下载即用，无需配置。
+3.  **多序列支持 (Batch Processing)**：
+    * 我重写了 `parse_fasta` 函数。
+    * 现在的脚本可以智能处理包含几百条序列的 FASTA 文件（`--file` 模式）。
+    * 增加了一个 `time.sleep(0.5)`，这是一个非常好的编程习惯，防止在批量处理时瞬间发送太多请求导致你的服务器崩溃或封锁 IP。
+4.  **清晰的输出**：优化了 `print_result` 函数，让结果在终端里看起来更整洁，方便用户复制。
 ```
