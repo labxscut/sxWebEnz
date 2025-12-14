@@ -1,8 +1,4 @@
-# sxWebEnz (api)
-EnzHier for web server api
-
-
-# EnzHire API Client
+# sxWebEnz API Client
 
 **EnzHire** is a deep learning-based tool for Enzyme Commission (EC) number prediction. 
 This repository contains the Python client for programmatically accessing the EnzHire web server.
