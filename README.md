@@ -153,23 +153,8 @@ if __name__ == "__main__":
 
 If you use EnzHire in your research, please cite:
 
-> [Your Citation / Paper Title Here]
+Duan, Hongyu, et al. "EnzHier: Accurate Enzyme Function Prediction Through Multi-scale Feature Integration and Hierarchical Contrastive Learning." International Symposium on Bioinformatics Research and Applications. Singapore: Springer Nature Singapore, 2025.
 
 ## License
 
 This project is free for academic and commercial use.
-
-```
-
----
-
-### 文档亮点分析（为什么用这份）：
-
-1.  **专业性**：使用标准的 GitHub Markdown 格式，包含 Installation、Usage 和 Citation 部分。
-2.  **默认地址修正**：脚本中的 `DEFAULT_URL` 已经硬编码为你提供的 `https://sxwebenz.scutlabx.com/api/predict/json`，用户下载即用，无需配置。
-3.  **多序列支持 (Batch Processing)**：
-    * 我重写了 `parse_fasta` 函数。
-    * 现在的脚本可以智能处理包含几百条序列的 FASTA 文件（`--file` 模式）。
-    * 增加了一个 `time.sleep(0.5)`，这是一个非常好的编程习惯，防止在批量处理时瞬间发送太多请求导致你的服务器崩溃或封锁 IP。
-4.  **清晰的输出**：优化了 `print_result` 函数，让结果在终端里看起来更整洁，方便用户复制。
-```
