@@ -1,24 +1,7 @@
 # sxWebEnz (api)
 EnzHier for web server api
 
-这份文档是专门为你准备发布到 GitHub 上的 `README.md`。
 
-我已对之前的 Python 脚本进行了**关键升级**，使其能够自动识别并处理**Multi-FASTA（多条序列文件）**，从而完美满足你“单条和多条预测”的需求。
-
-同时，我已经将默认服务器地址替换为你提供的真实地址 `https://sxwebenz.scutlabx.com/`。
-
------
-
-### 建议的文件名
-
-  * 文档保存为：`README.md`
-  * 脚本保存为：`enzhire_client.py`
-
------
-
-### 文档内容 (Copy 下面的内容)
-
-````markdown
 # EnzHire API Client
 
 **EnzHire** is a deep learning-based tool for Enzyme Commission (EC) number prediction. 
@@ -33,7 +16,7 @@ You need **Python 3.x** and the `requests` library installed.
 
 ```bash
 pip install requests
-````
+
 
 ## Quick Start
 
